@@ -1,0 +1,34 @@
+.about-container {
+    max-width: 800px; /* Adjust the maximum width of the container as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px; /* Increase font size for the heading */
+}
+
+.culture-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.culture-table th, .culture-table td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Increase padding for cells */
+    text-align: left;
+    font-size: 16px; /* Increase font size for table cells */
+}
+
+.culture-table th {
+    background-color: #f2f2f2;
+}
+
+.culture-table img {
+    max-width: 100%; /* Ensure images don't exceed their container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra spacing below inline images */
+    margin: 0 auto; /* Center images */
+}
+
